@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0%;
+      margin: 0%;
+      background-color:#f3e5d8;   
+      justify-content: center;
+    }
+    
+    .item{
+      width: 503px;
+      height:211vh;
+      border-radius: 20px;
+      background-color: white;
+      padding: 37px;
+      margin: 48px;
+    }
+    .sk1{
+      width: 479px;
+      height: 228px;
+      margin: 7px;
+
+    }
+    .image img{
+      width: 493px;
+      height: 238px;
+      border-radius:  13px 13px 13px 13px;
+    
+    }
+    .item h1{
+      padding: 12px;
+      margin: 8px;
+      font-family:'Playfair Display', serif;;
+    }
+    .item p{
+      margin: 14px;
+      font-size: 12px;
+    }
+    
+    .item li{
+      padding: 10px;
+    }
+    .item li::marker {
+     color: #9e7567;
+     margin-right: 20px;
+}
+    .item ul{
+      padding: 10px;
+    }
+    .item h2{
+      color: #9e7567;
+    }
+    .shivam{
+      display: flex;
+      justify-content:space-between;
+    }
+
+    .shivam .one{
+      margin-left: 40px;
+    }
+    .shivam .two{
+      margin-right: 150px;
+      color: #6c4035;
+    }
+    .sk2 h2{
+      color: purple;
+      margin: 20px;
+      font-size: 20px;
+    }
+    .sk2{
+      background-color:#fff7fc;
+      border-radius: 20px;
+    }
+    .sk3 li{
+      font-size: 15px;
+      
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="item">
+  <div class="sk1">
+  <div class="image">
+    <img src="images/image-omelette.jpeg">
+  </div>
+  <h1>Simple Omelette Recipe</h1>
+ <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  <div class="sk2">
+  <h2>Preparation time</h2>
+  <ul>
+  <li><b>Total</b>: Approximately 10 minutes</li>
+  <li><b>Preparation</b>: 5 minutes</li>
+  <li><b>Cooking</b> : 5 minutes</li>
+  </ul>
+  </div>
+
+  <h2>Ingredients</h2>
+<ul>
+  <li>2-3 large eggs</li>
+  <li>Salt, to taste</li>
+  <li>Pepper, to taste</li>
+ <li> 1 tablespoon of butter or oil</li>
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+</ul>
+<hr>
+<br>
+<div class="sk3">
+  <h2>Instructions</h2>
+<ol>
+<li> <b>Beat the eggs</b>:In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+
+  <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+<li>
+  <b>Cook the omelette</b> :Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+
+  <li><b>Add fillings(optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the 
+    middle, sprinkle your chosen fillings over one half of the omelette.</li>
+
+ <li><b>Fold and serve</b> :As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+  <li><b>Enjoy</b>:Serve hot, with additional salt and pepper if needed.</li>
+ </ol>
+</div>
+ <hr>
+
+  <h2>Nutrition</h2>
+
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+  <div class="shivam">
+    <div class="one">calories</div>
+    <div class="two">277kcal</div>
+  </div>
+  <hr>
+  <div class="shivam">
+    <div class="one">carbs</div>
+    <div class="two">0g</div>
+     
+  </div>
+  <hr>
+  <div class="shivam">
+    <div class="one">Protein</div>
+    <div class="two">20g</div>
+  </div>
+  <hr>
+  <div class="shivam">
+    <div class="one">Fat</div>
+    <div class="two">22g</div>
+  </div>
+  </div>
+  </div>
+</div> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">SHIVAM KUMAR</a>.
+  </div>
+</body>
+</html>
